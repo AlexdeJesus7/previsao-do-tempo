@@ -44,3 +44,9 @@ body{
 .img-busca {
     width: 20px;
 }
+
+.city {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+}
