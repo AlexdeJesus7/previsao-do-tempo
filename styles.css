@@ -42,10 +42,18 @@ body {
     background-color: #7c7c7c2b;
     cursor: pointer;
     float: right;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
 }
 
 .img-busca {
-    width: 20px;
+    width: 24px;
+    filter: invert(100%);
+    transition: transform 0.2s ease;
+}
+
+.button-busca:hover .img-busca {
+    transform: scale(1.2);
 }
 
 .caixa-media {
@@ -73,6 +81,7 @@ body {
 .text-previsao {
     color: #fff;
     margin-left: 20px;
+    text-transform: capitalize;
 }
 
 .umidade {
